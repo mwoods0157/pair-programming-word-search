@@ -26,7 +26,6 @@ const eqArrays = function(array1, array2) {
 const wordSearch = function(array, word) {
     //Creates array of the word
     let wordArray = word.split('');
-    //Creates horizontal/verticle values which should return false
     
     //First for loop checks whether the word is found in any row (subArray) in the array
     for (let i = 0; i < array.length; i++) {
